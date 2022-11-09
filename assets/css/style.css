@@ -4,7 +4,7 @@
 
 /*brand color pallette */
 : :root {
-  --primary: #4681b4;
+  --primary: #3c6e9a;
   --secondary: #e9f0f6;
   --tertiary: #5d92c0;
   --dark: #022849;
@@ -42,17 +42,17 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--tertiary);
+  background-color: #5d92c0;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 h1 {
-  color: var(--dark);
- background-color: var(--tertiary);
+  color: #022849;
+ background-color: #5d92c0;
  padding: auto;
  margin:0;
  font-size: 60px;
- color: var(--dark);
+ color: #022849;
  background-size: auto;
 }
 
@@ -61,7 +61,7 @@ nav {
 display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
-  background-color: var(--tertiary); 
+  background-color:   #3c6e9a; 
   background-size: 100px;
    justify-content: space-around;
   align-items: center;
@@ -91,7 +91,7 @@ nav a:last-child {
 img {
   width: 150px;
   height: 150px;
-  border-radius: 60%;
+  border-radius: 50%;
 }
 
 main {
@@ -168,7 +168,7 @@ main {
 }
 
 .flex-item div {
-  background-color: var(--secondary);
+  background-color: #e9f0f6;
   padding: 8px 10px;
 }
 
@@ -186,7 +186,7 @@ main {
 }
 
 .Contact address a {
-  color: var(--tertiary);
+  color: #022849;
   padding: 5px;
   text-decoration: none;
   font-size: 1.3rem;
@@ -252,7 +252,7 @@ main {
 
   .page-location > h2 {
     border-right: none;
-    border-bottom: 4px solid var(--primary);
+    border-bottom: 4px solid #022849;
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: left;
