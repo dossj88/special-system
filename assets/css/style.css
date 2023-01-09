@@ -247,6 +247,11 @@ main {
 #p1 {
   color: rgb(0, 0, 0);
 }
+
+#p2 {
+  color: rgb(0, 0, 0);
+}
+
 @media screen and (max-width: 980px) {
   header {
     padding: 0 0 10px 0;
