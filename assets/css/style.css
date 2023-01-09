@@ -214,7 +214,10 @@ main {
 }
 
 .Box-2 {
-  background-image: url("../images/pumpkins.jpeg");
+  background-image: url("../images/bitsplease.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .Box-3 {
@@ -229,8 +232,21 @@ main {
   background-image: url("../images/matrix");
 }
 
+.project-1 {
+  background-image: url("../images/project-1.png");
+  background-size: 150px 150px;
+  border-radius: 25%;
+}
 
+.project-2 {
+  background-image: url("../images/bp.png");
+  background-size: 150px 150px;
+  border-radius: 25%;
+}
 
+#p1 {
+  color: rgb(0, 0, 0);
+}
 @media screen and (max-width: 980px) {
   header {
     padding: 0 0 10px 0;
